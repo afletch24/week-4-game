@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-    var targetNumber= (Math.floor(Math.random()*(120-19)) +1);
+    var targetNumber= (Math.floor(Math.random()*(120-19)) +1) +19;
     console.log("target number is: " + targetNumber);
     var userTotal=0;
     console.log("userTotal is: " + userTotal);
@@ -68,6 +68,7 @@ $(document).ready(function(){
         userTotal = 0;
         $("#totalScore").html(userTotal);
         targetNumber= (Math.floor(Math.random()*(120-19)) +1);
+        $("#target").html(targetNumber);
         num1= Math.floor(Math.random()*11 + 1);
         num2= Math.floor(Math.random()*11 + 1);
         num3= Math.floor(Math.random()*11 + 1);
