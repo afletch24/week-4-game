@@ -1,0 +1,70 @@
+body {
+    background: url("../images/background.jpg");
+}
+button{
+    padding:0;
+    border:0;
+}
+.wrapper{
+    display: flex;
+     flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    width: 96%;
+    height:100%;
+    padding: 10px;
+    font-family:
+     
+}
+
+.crystal{
+    flex-direction: row; 
+    justify-content: center;
+    height:100px;
+    width: 100px;
+    display: inline-block; 
+    margin: 10px; 
+    align-content: center; 
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    
+}
+.header, #targetNumber, .score, #reset{
+    background-color: 	#96a7cf;
+    color: #2f4c7a;
+    margin: 10px;
+    border: 2px solid #eee;
+}
+
+.rules{
+    background-color: #a54b6e;
+    color: #eee;
+    height: 180px;
+    width:600px;
+    
+}
+p{
+    padding:10px;
+}
+.header{
+    width: 420px;
+    height: 80px;
+    font-size: 60px;
+    padding:20px;
+}
+#box, #crystalBox{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+
+#targetNumber, #winLose{
+    height: 90px;
+    width: 90px;
+}
+
+
+
